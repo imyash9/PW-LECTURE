@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        .grad {
+            height: 500px;
+            /* background-image: linear-gradient(red, yellow, aqua); */
+            /* background-image: linear-gradient(to right,red, yellow, aqua); */
+            /* background-image: linear-gradient(to top,red, yellow, aqua); */
+            /* background-image: linear-gradient(to bottom,red, yellow, aqua); */
+            /* background-image: linear-gradient(to left,red, yellow, aqua); */
+
+            /* background-image: linear-gradient(180deg ,red, yellow, aqua); */
+            /* background-image: linear-gradient(0.3turn ,red 40%, yellow 30%,aqua); */
+            /* background-image: linear-gradient(0.6turn ,#00f 40%, #0ff 10%, #f00); */
+
+
+            /* background-image: repeating-linear-gradient(90deg,red, yellow 50%, aqua); */
+            background-image: repeating-linear-gradient(0.7turn, transparent, red 10%, yellow 20%, aqua 30%);
+
+        }
+
+        .grad2 {
+            height: 500px;
+            /* background-image: radial-gradient(red, yellow, aqua); */
+            /* background-image: radial-gradient(circle at 50%,red 20%, yellow 10%, aqua 80%); */
+            /* background-image: radial-gradient(closest-side,red, yellow); */
+            /* background-image: radial-gradient(ellipse at top,red, yellow, aqua); */
+            /* background-image: radial-gradient(circle at 100%,red, yellow 50%, aqua); */
+
+
+
+            /* background-image: repeating-radial-gradient(circle at 70%, transparent, #4800ff 10%, #05f905 20%, #0ff 30%); */
+            background-image: radial-gradient(closest-side, transparent,red 10%, yellow 20%, aqua 30%);
+        }
+
+        .grad3{
+            height: 500px;
+            /* background-image: conic-gradient(red, blue, aqua, green); */
+            /* background-image: conic-gradient(from 2.123rad at 20% 60%,red, blue, aqua, green); */
+            background-image: conic-gradient(
+            #ff0000 10deg,
+             #0000ff 10deg 70deg,
+              #00ffff 70deg 160deg,
+               #008000 160deg 250deg,
+               #dd05f0 250deg 340deg,
+               #607040 340deg 360deg
+               );
+
+            /* background-image: conic-gradient(from 2.123rad at 20% 60%,
+            #ff0000 10deg,
+             #0000ff 10deg 70deg,
+              #00ffff 70deg 160deg,
+               #008000 160deg 250deg,
+               #dd05f0 250deg 340deg,
+               #607040 340deg 360deg
+               ); */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Gradient -->
+    <div class="grad">
+    </div>
+
+    <div class="grad2">
+    </div>
+
+    <div class="grad3">
+    </div>
+</body>
+
+</html>

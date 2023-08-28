@@ -1,0 +1,78 @@
+/* Universal Selector */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* in Some cases Body is also universal selector */
+/* body {
+    background-color: #ff0;
+} */
+
+
+/* Element selector */
+/* h1{
+    background-color: #0ff;
+    color: #f0f;
+} */
+
+/* p{
+    background-color: #f00;
+    color: #0f0;
+}  */
+
+
+/* Class selector  */
+/* .para{
+    background-color: #fff;
+    color: #000;
+} */
+
+
+/* ID Selector */
+/* #id1{
+    background-color: #0f0;
+    color: #00f;
+
+} */
+
+
+/* descendent Selector */
+/* main p{
+    color: #00f;
+} */
+
+
+
+/* Child Selector  */
+h1 > p {
+    color: #00f;
+}
+
+
+/* Adjacent sibling selector */
+/* section + p {
+    color: #f00;
+} */
+
+
+/* General sibling Selector  */
+/* section ~ p {
+    color: #080;
+} */
+
+
+/* Attribute Selector */
+[target="_blank"]{
+    color: pink;
+    text-decoration: none;
+}
+
+[alt~="Yash"]{
+    background-color: aqua;
+}
+
+[alt~="Yash1"]{
+    background-color: rgb(8, 250, 137);
+}
